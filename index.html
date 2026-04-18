@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONET IT SOLUTIONS | Premium Network & Cloud Infrastructure Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="en.html" class="logo-link">
+                <img src="images/logo.png" alt="CONET IT SOLUTIONS Logo" class="logo-img">
+            </a>
+            <nav>
+                <a href="#about">About Us</a>
+                <a href="#services">Expertise</a>
+                <a href="#contact">Contact</a>
+                <a href="cn.html" class="lang-btn">中文 | Chinese</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Next-Generation Enterprise Network & Cloud Infrastructure</h2>
+            <p>Led by CCIE-certified architects, delivering end-to-end IT solutions from physical deployments to cloud-native automation.</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="container section">
+        <h2 class="section-title">Professional. Reliable. Efficient.</h2>
+        <p class="text-center">CONET IT SOLUTIONS is dedicated to building rock-solid network infrastructure. With deep expertise in complex routing, large-scale data centers, and multi-region cloud connectivity, we solve immediate network challenges while paving the way for future scalability through cutting-edge automation.</p>
+    </section>
+
+    <section id="services" class="bg-light">
+        <div class="container section">
+            <h2 class="section-title">Our Expertise</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Network Design & Deployment</h3>
+                    <p>End-to-end enterprise network architecture design, hardware procurement, and physical installation ensuring high availability and performance.</p>
+                </div>
+                <div class="card">
+                    <h3>Network Automation</h3>
+                    <p>Say goodbye to manual configuration. We build robust automation pipelines using NetBox (SoT), Nornir, and Python to manage large-scale infrastructure.</p>
+                </div>
+                <div class="card">
+                    <h3>Cloud Infrastructure</h3>
+                    <p>Expertise in complex AWS networking (Transit Gateway, Route 53). Delivering cross-region connectivity and DNS firewall solutions.</p>
+                </div>
+                <div class="card">
+                    <h3>Security & Compliance</h3>
+                    <p>Implementing next-generation firewalls, Zero Trust architectures, and comprehensive access controls to secure your core data assets.</p>
+                </div>
+                <div class="card">
+                    <h3>Optimization & Troubleshooting</h3>
+                    <p>Deep packet-level analysis and bottleneck resolution. Providing root cause analysis for complex issues like global latency and DNS timeouts.</p>
+                </div>
+                <div class="card">
+                    <h3>AI & Smart Operations</h3>
+                    <p>Embracing the future by integrating Large Language Models (LLM) and AI Agents into network troubleshooting workflows to boost IT team efficiency.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container section text-center">
+        <h2 class="section-title">Ready to Upgrade Your Network?</h2>
+        <p>Contact CONET IT SOLUTIONS for a tailored, professional technical solution.</p>
+        <div class="contact-info">
+            <p><strong>Email:</strong> clark.c.zhang@hotmail.com</p>
+            <p><strong>Service Area:</strong> Sydney & Australia-wide</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CONET IT SOLUTIONS. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

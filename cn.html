@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONET IT SOLUTIONS | 顶级网络与云架构服务</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container nav-container">
+            <a href="cn.html" class="logo-link">
+                <img src="images/logo.png" alt="CONET IT SOLUTIONS Logo" class="logo-img">
+            </a>
+            <nav>
+                <a href="#about">关于我们</a>
+                <a href="#services">核心业务</a>
+                <a href="#contact">联系我们</a>
+                <a href="index.html" class="lang-btn">EN | English</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>构建下一代企业级网络与云基础架构</h2>
+            <p>由具有 CCIE 资质的资深网络架构专家领衔，为您提供从物理布线到云端自动化的一站式网络解决方案。</p>
+            <a href="#contact" class="btn">立即咨询</a>
+        </div>
+    </section>
+
+    <section id="about" class="container section">
+        <h2 class="section-title">专业、稳定、高效</h2>
+        <p class="text-center">CONET IT SOLUTIONS 致力于为企业打造坚如磐石的网络基础设施。凭借在复杂路由交换、大规模数据中心以及跨区域云互联等领域的深厚积累，我们不仅解决眼前的网络难题，更通过前沿的自动化技术为您的未来业务扩展铺平道路。</p>
+    </section>
+
+    <section id="services" class="bg-light">
+        <div class="container section">
+            <h2 class="section-title">我们的核心业务</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>网络方案设计与安装</h3>
+                    <p>提供端到端的企业级网络架构设计、设备采购与物理安装部署，确保底层链路高可用与高性能。</p>
+                </div>
+                <div class="card">
+                    <h3>网络自动化 (Network Automation)</h3>
+                    <p>告别手动配置。基于 NetBox, Nornir 与 Python，为您打造大规模网络设备的自动化运维与配置管理流水线。</p>
+                </div>
+                <div class="card">
+                    <h3>云业务服务 (Cloud Infrastructure)</h3>
+                    <p>精通 AWS 复杂网络架构（如 Transit Gateway, Route 53）。提供跨区域高可用组网、DNS 防火墙服务。</p>
+                </div>
+                <div class="card">
+                    <h3>网络安全与合规</h3>
+                    <p>实施下一代防火墙、零信任架构与全方位访问控制，抵御外部威胁，保护企业核心数据资产。</p>
+                </div>
+                <div class="card">
+                    <h3>网络优化与故障排查</h3>
+                    <p>深度数据包级分析与瓶颈排查。针对全球链路延迟、DNS 解析超时等复杂问题提供根因分析。</p>
+                </div>
+                <div class="card">
+                    <h3>AI 与智能运维</h3>
+                    <p>拥抱前沿科技，探索将大语言模型 (LLM) 和 AI 代理融入网络排错流程，提升 IT 团队响应效率。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container section text-center">
+        <h2 class="section-title">准备好升级您的网络架构了吗？</h2>
+        <p>联系 CONET IT SOLUTIONS，获取量身定制的专业技术方案。</p>
+        <div class="contact-info">
+            <p><strong>邮箱：</strong> clark.c.zhang@hotmail.com</p>
+            <p><strong>服务地区：</strong> 悉尼 (Sydney) 及全澳范围</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CONET IT SOLUTIONS. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
