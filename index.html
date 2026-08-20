@@ -3,90 +3,342 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONET IT SOLUTIONS | Premium Network & Cloud Infrastructure Services</title>
+    <meta name="description" content="CONET IT SOLUTIONS - CCIE-led network design, automation (Python/Terraform/Ansible), AWS cloud, firewall security, AI Agents & MCP, and CI/CD pipelines for enterprise infrastructure.">
+    <title>CONET IT SOLUTIONS | Network, Cloud & Automation Experts</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
     <header>
         <div class="container nav-container">
-            <a href="en.html" class="logo-link">
+            <a href="index.html" class="logo-link">
                 <img src="images/logo.png" alt="CONET IT SOLUTIONS Logo" class="logo-img">
             </a>
             <nav>
-                <a href="#about">About Us</a>
-                <a href="#services">Expertise</a>
-                <a href="#contact">Contact</a>
-                <a href="cn.html" class="lang-btn">中文 | Chinese</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#work">Case Studies</a>
+                <a href="#contact" class="nav-cta">Let's Talk</a>
+                <a href="cn.html" class="lang-btn">中文</a>
             </nav>
         </div>
     </header>
 
     <section class="hero">
-        <div class="hero-content">
-            <h2>Next-Generation Enterprise Network & Cloud Infrastructure</h2>
-            <p>Led by CCIE-certified architects, delivering end-to-end IT solutions from physical deployments to cloud-native automation.</p>
-            <a href="#contact" class="btn">Get in Touch</a>
+        <div class="container hero-content">
+            <span class="hero-eyebrow">CCIE-Led &middot; Sydney, Australia</span>
+            <h1>Enterprise Network &amp; Cloud Infrastructure, <span>Automated &amp; Secured</span></h1>
+            <p>CONET IT SOLUTIONS helps businesses design, automate, and secure the infrastructure that runs their operations &mdash; from data center networking to AWS cloud, firewalls, and AI-driven automation.</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn">Book a Free Consultation</a>
+                <a href="https://www.linkedin.com/in/clark-zhang-18857131/" target="_blank" rel="noopener" class="btn btn-outline">Connect on LinkedIn</a>
+            </div>
         </div>
     </section>
 
-    <section id="about" class="container section">
-        <h2 class="section-title">Professional. Reliable. Efficient.</h2>
-        <p class="text-center">CONET IT SOLUTIONS is dedicated to building rock-solid network infrastructure. With deep expertise in complex routing, large-scale data centers, and multi-region cloud connectivity, we solve immediate network challenges while paving the way for future scalability through cutting-edge automation.</p>
-    </section>
+    <div class="trust-bar">
+        <div class="container trust-list">
+            <span class="trust-chip">CCIE Certified</span>
+            <span class="trust-chip">AWS Cloud</span>
+            <span class="trust-chip">Python</span>
+            <span class="trust-chip">Terraform</span>
+            <span class="trust-chip">Ansible</span>
+            <span class="trust-chip">Palo Alto / Firewalls</span>
+            <span class="trust-chip">AI Agents &amp; MCP</span>
+            <span class="trust-chip">CI/CD</span>
+        </div>
+    </div>
 
-    <section id="services" class="bg-light">
-        <div class="container section">
-            <h2 class="section-title">Our Expertise</h2>
-            <div class="grid">
-                <div class="card">
-                    <h3>Network Design & Deployment</h3>
-                    <p>End-to-end enterprise network architecture design, hardware procurement, and physical installation ensuring high availability and performance.</p>
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-text">
+                <span class="section-tag">About CONET</span>
+                <h2 class="section-title" style="text-align:left;">Independent expertise, enterprise-grade delivery</h2>
+                <p>CONET IT SOLUTIONS PTY LTD is led by a CCIE-certified network architect with hands-on experience across enterprise networking, cloud infrastructure, and modern automation practices.</p>
+                <p>Instead of a generic managed-service checklist, I work directly with you to understand the business problem, design a solution that fits your environment, and implement it end-to-end &mdash; then automate it so it stays reliable long after go-live.</p>
+                <p>I take on a limited number of engagements at a time, so every client gets direct access to senior-level expertise, not a ticket queue.</p>
+            </div>
+            <div class="about-badges">
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-4z"/></svg>
+                    </div>
+                    <div>
+                        <h4>CCIE-Certified Architect</h4>
+                        <p>Deep routing/switching and data center expertise built over years of enterprise network design.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Network Automation</h3>
-                    <p>Say goodbye to manual configuration. We build robust automation pipelines using NetBox (SoT), Nornir, and Python to manage large-scale infrastructure.</p>
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg>
+                    </div>
+                    <div>
+                        <h4>Direct, Responsive Delivery</h4>
+                        <p>You work directly with the engineer who designs and builds your solution &mdash; no hand-offs.</p>
+                    </div>
                 </div>
-                <div class="card">
-                    <h3>Cloud Infrastructure</h3>
-                    <p>Expertise in complex AWS networking (Transit Gateway, Route 53). Delivering cross-region connectivity and DNS firewall solutions.</p>
-                </div>
-                <div class="card">
-                    <h3>Security & Compliance</h3>
-                    <p>Implementing next-generation firewalls, Zero Trust architectures, and comprehensive access controls to secure your core data assets.</p>
-                </div>
-                <div class="card">
-                    <h3>Optimization & Troubleshooting</h3>
-                    <p>Deep packet-level analysis and bottleneck resolution. Providing root cause analysis for complex issues like global latency and DNS timeouts.</p>
-                </div>
-                <div class="card">
-                    <h3>AI & Smart Operations</h3>
-                    <p>Embracing the future by integrating Large Language Models (LLM) and AI Agents into network troubleshooting workflows to boost IT team efficiency.</p>
+                <div class="badge-card">
+                    <div class="badge-icon">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-4-4"/><path d="M12 19h8"/></svg>
+                    </div>
+                    <div>
+                        <h4>Automation-First Mindset</h4>
+                        <p>Every solution is built to be repeatable and automatable, not a one-off manual fix.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section id="services" class="bg-light">
+        <div class="container section">
+            <div class="section-header">
+                <span class="section-tag">What I Do</span>
+                <h2 class="section-title">Services Built for Modern Infrastructure</h2>
+            </div>
+            <p class="section-subtitle">From physical cabling to cloud-native automation and AI-powered operations &mdash; a single point of contact for your infrastructure roadmap.</p>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="14" width="4" height="6"/><rect x="10" y="8" width="4" height="12"/><rect x="18" y="4" width="4" height="16"/></svg>
+                    </div>
+                    <h3>Network Design &amp; Optimization</h3>
+                    <p>End-to-end enterprise network architecture &mdash; design, implementation, and performance tuning for routing, switching, data centers, and WAN/SD-WAN.</p>
+                    <div class="tag-list">
+                        <span class="tag">Design</span>
+                        <span class="tag">Implementation</span>
+                        <span class="tag">Troubleshooting</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+                    </div>
+                    <h3>Network Automation</h3>
+                    <p>Replace manual, error-prone configuration with automated, version-controlled workflows using Python, Terraform, and Ansible.</p>
+                    <div class="tag-list">
+                        <span class="tag">Python</span>
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Ansible</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+                    </div>
+                    <h3>AWS Cloud Infrastructure</h3>
+                    <p>Design and deployment of scalable AWS environments &mdash; VPC networking, Transit Gateway, Route 53, and secure hybrid connectivity.</p>
+                    <div class="tag-list">
+                        <span class="tag">AWS VPC</span>
+                        <span class="tag">Transit Gateway</span>
+                        <span class="tag">Route 53</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                    </div>
+                    <h3>Firewall &amp; Network Security</h3>
+                    <p>Next-generation firewall deployment, policy hardening, and Zero Trust segmentation to protect your critical infrastructure.</p>
+                    <div class="tag-list">
+                        <span class="tag">Palo Alto</span>
+                        <span class="tag">Zero Trust</span>
+                        <span class="tag">Hardening</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="7" width="16" height="12" rx="2"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/></svg>
+                    </div>
+                    <h3>AI Agents, Skills &amp; MCP Servers</h3>
+                    <p>Design and build AI Agents, custom Agent Skills, and MCP servers that connect LLMs to real infrastructure tools and workflows.</p>
+                    <div class="tag-list">
+                        <span class="tag">AI Agents</span>
+                        <span class="tag">Agent Skills</span>
+                        <span class="tag">MCP Servers</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2.1l4 4-4 4"/><path d="M3 12.1v-2a4 4 0 0 1 4-4h14"/><path d="M7 21.9l-4-4 4-4"/><path d="M21 11.9v2a4 4 0 0 1-4 4H3"/></svg>
+                    </div>
+                    <h3>CI/CD Pipeline Automation</h3>
+                    <p>Build reliable CI/CD pipelines for network and infrastructure-as-code, enabling safe, automated, and repeatable deployments.</p>
+                    <div class="tag-list">
+                        <span class="tag">GitLab CI</span>
+                        <span class="tag">GitHub Actions</span>
+                        <span class="tag">IaC</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">How I Work</span>
+                <h2 class="section-title">A Simple, Transparent Process</h2>
+            </div>
+            <p class="section-subtitle">No lengthy sales cycles or hidden scope creep &mdash; just a clear path from problem to production.</p>
+            <div class="process-grid">
+                <div class="process-step">
+                    <div class="step-num">01</div>
+                    <h4>Discovery Call</h4>
+                    <p>A free, no-obligation call to understand your current setup, pain points, and goals.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">02</div>
+                    <h4>Design &amp; Proposal</h4>
+                    <p>A clear technical design and fixed-scope proposal &mdash; no ambiguity on cost or deliverables.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">03</div>
+                    <h4>Implementation</h4>
+                    <p>Hands-on delivery with regular progress updates, tested in staging before production changes.</p>
+                </div>
+                <div class="process-step">
+                    <div class="step-num">04</div>
+                    <h4>Automate &amp; Handover</h4>
+                    <p>Documentation and automation handed over so your team can operate and extend it confidently.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work" class="bg-light">
+        <div class="container section">
+            <div class="section-header">
+                <span class="section-tag">Success Stories</span>
+                <h2 class="section-title">Recent Project Examples</h2>
+            </div>
+            <p class="section-subtitle">A sample of the types of engagements CONET IT SOLUTIONS delivers. Client details are generalized to respect confidentiality.</p>
+            <div class="case-grid">
+                <div class="case-card">
+                    <div class="case-top">
+                        <div class="case-industry">Enterprise &middot; Data Center</div>
+                        <h3>Zero-Downtime Data Center Network Refresh</h3>
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Challenge</div>
+                        <p>Aging core switching infrastructure with no redundancy, creating risk of outages during business hours.</p>
+                        <div class="case-label">Solution</div>
+                        <p>Designed and implemented a redundant, standards-based core/distribution network, migrated in staged maintenance windows.</p>
+                        <div class="case-results">
+                            <span class="result-pill">Zero unplanned outages</span>
+                            <span class="result-pill">Fully documented design</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-top">
+                        <div class="case-industry">Automation &middot; NetOps</div>
+                        <h3>Python &amp; Ansible Configuration Automation</h3>
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Challenge</div>
+                        <p>Manual configuration changes across dozens of devices, prone to human error and slow to audit.</p>
+                        <div class="case-label">Solution</div>
+                        <p>Built a source-of-truth driven pipeline with Python and Ansible to generate, validate, and push configuration changes automatically.</p>
+                        <div class="case-results">
+                            <span class="result-pill">Faster change rollout</span>
+                            <span class="result-pill">Consistent, auditable configs</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-top">
+                        <div class="case-industry">Cloud &middot; AWS</div>
+                        <h3>Multi-Region AWS Connectivity &amp; DNS Security</h3>
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Challenge</div>
+                        <p>Fragmented cross-region connectivity and no centralized DNS security policy across AWS accounts.</p>
+                        <div class="case-label">Solution</div>
+                        <p>Implemented AWS Transit Gateway topology with Route 53 Resolver DNS Firewall for centralized, policy-driven protection.</p>
+                        <div class="case-results">
+                            <span class="result-pill">Centralized DNS security</span>
+                            <span class="result-pill">Simplified cross-region routing</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-top">
+                        <div class="case-industry">AI &middot; Operations</div>
+                        <h3>AI Agent for Network Troubleshooting</h3>
+                    </div>
+                    <div class="case-body">
+                        <div class="case-label">Challenge</div>
+                        <p>Repetitive Tier-1 troubleshooting tasks consuming senior engineers' time.</p>
+                        <div class="case-label">Solution</div>
+                        <p>Built a custom MCP server and AI Agent skill connected to live device data to triage common issues automatically.</p>
+                        <div class="case-results">
+                            <span class="result-pill">Reduced manual triage time</span>
+                            <span class="result-pill">Reusable agent skill</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="case-note">Have a similar challenge? Let's discuss how a tailored solution could work for your environment.</p>
+        </div>
+    </section>
+
+    <div class="cta-banner">
+        <div class="container">
+            <h2>Have a network, cloud, or automation challenge?</h2>
+            <p>Let's talk through your requirements &mdash; no obligation, just a straightforward technical conversation.</p>
+            <a href="#contact" class="btn">Start the Conversation</a>
+        </div>
+    </div>
+
     <section id="contact" class="container section text-center">
-        <h2 class="section-title">Ready to Upgrade Your Network?</h2>
-        <p>Contact CONET IT SOLUTIONS for a tailored, professional technical solution.</p>
-        <div class="contact-info">
-            <p><strong>Email:</strong> clark.c.zhang@hotmail.com</p>
-            <p><strong>Service Area:</strong> Sydney & Australia-wide</p>
+        <span class="section-tag">Get In Touch</span>
+        <h2 class="section-title">Ready to Upgrade Your Infrastructure?</h2>
+        <p class="section-subtitle" style="margin-bottom:0;">Reach out directly by email or LinkedIn &mdash; I respond personally to every enquiry.</p>
+        <div class="contact-grid">
+            <a href="mailto:clark.c.zhang@hotmail.com" class="contact-card">
+                <div class="contact-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+                </div>
+                <h4>Email</h4>
+                <span>clark.c.zhang@hotmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/clark-zhang-18857131/" target="_blank" rel="noopener" class="contact-card">
+                <div class="contact-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                </div>
+                <h4>LinkedIn</h4>
+                <span>Clark Zhang</span>
+            </a>
+            <div class="contact-card">
+                <div class="contact-icon">
+                    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <h4>Service Area</h4>
+                <span>Sydney &amp; Australia-wide (remote available)</span>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2026 CONET IT SOLUTIONS. All rights reserved.</p>
+        <div class="container">
+            <p>&copy; 2026 CONET IT SOLUTIONS PTY LTD. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://www.linkedin.com/in/clark-zhang-18857131/" target="_blank" rel="noopener">LinkedIn</a>
+                <a href="mailto:clark.c.zhang@hotmail.com">Email</a>
+                <a href="cn.html">中文</a>
+            </div>
+        </div>
     </footer>
 
     <script>
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
-                });
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    e.preventDefault();
+                    target.scrollIntoView({ behavior: 'smooth' });
+                }
             });
         });
     </script>
